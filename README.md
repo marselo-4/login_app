@@ -5,6 +5,6 @@ Está preparada para usarse, solo falta montar la parte back-end para la API.
 
 ## ScreenShots
 
-
+<img src="https://i.imgur.com/kHmzMqk.jpg" style="width: 20%">
 
 
