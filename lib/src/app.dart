@@ -9,6 +9,8 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
    return new MaterialApp(
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData.dark(),
     title: 'Iniciar Sesión',
       home: Scaffold(
         body: LoginScreen(),

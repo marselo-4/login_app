@@ -19,6 +19,7 @@ class _LoginScreenState extends State<LoginScreen> with ValidationMixins {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              logo(),
               emailField(),
               passwordField(),
               Container(margin: EdgeInsets.only(top: 25.0)),
@@ -32,6 +33,12 @@ class _LoginScreenState extends State<LoginScreen> with ValidationMixins {
    );
   }
   
+  Widget logo(){
+    return Container(
+      margin: EdgeInsets.only(bottom: 20.0),
+      child: Image.asset('assets/images/perfil.png', width: 95.0, height: 95.0),
+    );
+  }
 
   Widget emailField(){
     return TextFormField(
